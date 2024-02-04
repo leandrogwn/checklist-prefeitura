@@ -1,0 +1,292 @@
+/* CSS Document */
+a:hover img {
+transform: translate(0px, -4px);
+-moz-transform: scale(1.1) translate(0px, -4px);
+-webkit-transform: scale(1.1) translate(0px, -4px);
+-ms-zoom: 1.1;
+opacity: 1 !important;
+-moz-opacity: 1 !important;
+-webkit-transition: all 0.2s ease-in;
+-moz-transition: all 0.2s ease-in;
+transition: all 0.2s ease;
+}
+
+#topo{
+	margin-top:0px;
+	height:135px;
+	text-align:left;
+	background: url(img/agsquare.png) repeat;
+	vertical-align:top;
+}
+
+#inicial{
+	background:url(img/background.jpg);
+}
+
+#top{
+	font-size:34px;
+	font-family:Verdana, Geneva, sans-serif;
+	background:url(img/agsquare.png)repeat;
+}
+
+#divcrit{
+	margin-top:-17px;
+	margin-right:-55px;
+}
+
+#rescrit{
+	margin-top:-20px;
+	margin-right:-75px;
+}
+
+#subtit{
+	font-size:22px;
+	margin-left:85px;
+}
+
+#figura{
+	margin-top:50px;
+}
+
+#addrot{
+	margin-top:12px;
+}
+
+#saudacao{
+	text-align:right;
+	margin-right:10px;
+	margin-top:20px;
+}
+
+#relogio{
+	text-align:right;
+	margin-right:10px;
+	margin-top:-95px;
+}
+
+:invalid { 
+  border-color: #e88;
+  -webkit-box-shadow: 0 0 5px rgba(255, 0, 0, .8);
+  -moz-box-shadow: 0 0 5px rbba(255, 0, 0, .8);
+  -o-box-shadow: 0 0 5px rbba(255, 0, 0, .8);
+  -ms-box-shadow: 0 0 5px rbba(255, 0, 0, .8);
+  box-shadow:0 0 5px rgba(255, 0, 0, .8);
+}
+
+:required {
+  border-color: #88a;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 255, .5);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 255, .5);
+  -o-box-shadow: 0 0 5px rgba(0, 0, 255, .5);
+  -ms-box-shadow: 0 0 5px rgba(0, 0, 255, .5);
+  box-shadow: 0 0 5px rgba(0, 0, 255, .5);
+}
+
+input, select {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border:1px solid #ccc;
+  font-size:15px;
+  width:190px;
+  min-height:30px;
+  margin-bottom:15px;
+  margin-top:5px;
+  outline: none;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  -o-border-radius:5px;
+  -ms-border-radius:5px;
+  border-radius:5px;
+  text-transform:uppercase;
+}
+
+#nome_rotina, #nome_subrotina, #nome_criterio, #nome_subcriterio{
+	width:300px;
+}
+
+#botao {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border:1px solid #ccc;
+  font-size:15px;
+  width:230px;
+  min-height:30px;
+  margin-bottom:15px;
+  margin-top:5px;
+  outline: none;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  -o-border-radius:5px;
+  -ms-border-radius:5px;
+  border-radius:5px;
+  text-transform:uppercase;
+  text-align:right;
+  background:url(../img/file_add.png) no-repeat;
+}
+
+#hora_envio{
+	width:40px;
+}
+
+#nome{
+	width:480px;	
+}
+
+#rot_span{
+	background:#066;
+	width:100%;
+	color:#FFFFFF;
+	height:22px;
+	text-transform:uppercase;
+}
+
+#subrot_span{
+	background:#069;
+	width:100%;
+	color:#FFFFFF;
+	height:22px;
+	text-transform:uppercase;
+}
+
+.campos_insere{
+	width:300px;
+}
+
+.textarea{
+	height:200px;
+	width:300px;
+}
+
+#titulo{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;	
+}
+
+#btnpublicar{
+	height:48px;
+	background:url(img/cadastrar.png) no-repeat;
+}
+
+#btngrupo{
+	height:48px;
+	background:url(img/grupos.png) no-repeat;
+}
+
+#btngrupo_senha{
+	width:260px;
+	height:48px;
+	background:url(img/accept.png) no-repeat;
+}
+
+#inserelei{
+	 text-align:center;
+ }
+.check{
+	width:20px;
+}
+
+input[type="radio"]{
+	width:15px;
+	vertical-align:middle;
+	margin-top:-5px;
+	margin-bottom:-5px;
+}
+
+#altframe{
+	position: absolute;
+	border: none;
+	width: 100%;
+	top: 194px;
+	left: 1px;
+}
+
+#preframe{
+	position: absolute;
+	border: none;
+	width: 100%;
+	top: 54px;
+	left: 0px;
+}
+
+.table_center{
+	text-align:center;
+	width:50%;
+}
+
+#table_login{
+	vertical-align:top;
+	text-align:center;
+}
+
+#aviso{
+	border:1px solid #000;
+	border-radius:8px;
+	margin:20px auto;
+	padding:10px 20px;
+	background:#141414;
+	width:328px;
+	color:#FFF;
+}
+
+#avisoFiltro{
+	border:1px solid #000;
+	border-radius:8px;
+	margin:20px auto;
+	padding:10px 20px;
+	background:#141414;
+	width:475px;
+	color:#FFF;
+}
+
+.radio, .tipo_msgn{
+	width:15px;
+}
+
+#fonesms, #fone1, #fone2{
+	width:145px;
+}
+
+#pop{
+	display:none;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-left:-150px;
+	margin-top:-100px;
+	padding:10px;
+	width:300px;
+	height:200px;
+	border:1px solid #d0d0d0;
+	background:#ffffff;
+}
+
+#titulo_msgn, #msgn{
+	width:400px;
+}
+
+#inc_mensagem{
+	vertical-align:top;
+}
+
+/*Style preencher_rotina*/
+
+body {
+font-family:verdana;
+font-size:15px;
+}
+
+#ex_ima{
+	vertical-align:bottom;
+	margin-top:8px;	
+	margin-left:-31px;
+	float:left;
+	padding:5px;
+}
+
+/*style relatorio*/
+#obs, #img{
+	width:35px;
+	height:35px;
+}
+
+.lbl_obs, .lbl_img{
+	vertical-align:super;
+}
