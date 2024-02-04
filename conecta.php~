@@ -1,15 +1,15 @@
 <?php
 
 //Servidor remoto
-$con = mysql_connect('mysql.pibema.pr.gov.br','pibemaprgovbr','info0016');
+$con = mysql_connect('###','###','###');
 //Servidor local
-//$con = mysql_connect('localhost','pibemaprgovbr','info0016');
+//$con = mysql_connect('localhost','###','###');
 
 if (!$con) die ("<h1>Falha na conexão com o Banco de Dados!</h1>");
 
 
 // Caso a conexão seja aprovada, então conecta o Banco de Dados.	
-$db = mysql_select_db("pibemaprgovbr",$con);
+$db = mysql_select_db("###",$con);
 
 // para a conexão com o MySQL
 mysql_set_charset('utf8',$con);
